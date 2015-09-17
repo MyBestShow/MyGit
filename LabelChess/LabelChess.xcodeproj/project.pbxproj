@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCCB09A61B66177B0098F724 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCB09A51B66177B0098F724 /* main.m */; };
+		BCCB09A91B66177B0098F724 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCB09A81B66177B0098F724 /* AppDelegate.m */; };
+		BCCB09B11B66177B0098F724 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCCB09B01B66177B0098F724 /* Images.xcassets */; };
+		BCCB09B41B66177B0098F724 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCCB09B21B66177B0098F724 /* LaunchScreen.xib */; };
+		BCCB09C01B66177B0098F724 /* LabelChessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCB09BF1B66177B0098F724 /* LabelChessTests.m */; };
+		BCCB09CB1B661C040098F724 /* LabelFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCB09CA1B661C040098F724 /* LabelFactory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCCB09BA1B66177B0098F724 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCCB09981B66177B0098F724 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCCB099F1B66177B0098F724;
+			remoteInfo = LabelChess;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCCB09A01B66177B0098F724 /* LabelChess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LabelChess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCCB09A41B66177B0098F724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCCB09A51B66177B0098F724 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCCB09A71B66177B0098F724 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCCB09A81B66177B0098F724 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCCB09B01B66177B0098F724 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BCCB09B31B66177B0098F724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BCCB09B91B66177B0098F724 /* LabelChessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabelChessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCCB09BE1B66177B0098F724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCCB09BF1B66177B0098F724 /* LabelChessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabelChessTests.m; sourceTree = "<group>"; };
+		BCCB09C91B661C040098F724 /* LabelFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelFactory.h; sourceTree = "<group>"; };
+		BCCB09CA1B661C040098F724 /* LabelFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelFactory.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCCB099D1B66177B0098F724 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCB09B61B66177B0098F724 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCCB09971B66177B0098F724 = {
+			isa = PBXGroup;
+			children = (
+				BCCB09A21B66177B0098F724 /* LabelChess */,
+				BCCB09BC1B66177B0098F724 /* LabelChessTests */,
+				BCCB09A11B66177B0098F724 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCCB09A11B66177B0098F724 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCCB09A01B66177B0098F724 /* LabelChess.app */,
+				BCCB09B91B66177B0098F724 /* LabelChessTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCCB09A21B66177B0098F724 /* LabelChess */ = {
+			isa = PBXGroup;
+			children = (
+				BCCB09CA1B661C040098F724 /* LabelFactory.m */,
+				BCCB09C91B661C040098F724 /* LabelFactory.h */,
+				BCCB09A71B66177B0098F724 /* AppDelegate.h */,
+				BCCB09A81B66177B0098F724 /* AppDelegate.m */,
+				BCCB09B01B66177B0098F724 /* Images.xcassets */,
+				BCCB09B21B66177B0098F724 /* LaunchScreen.xib */,
+				BCCB09A31B66177B0098F724 /* Supporting Files */,
+			);
+			path = LabelChess;
+			sourceTree = "<group>";
+		};
+		BCCB09A31B66177B0098F724 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCCB09A41B66177B0098F724 /* Info.plist */,
+				BCCB09A51B66177B0098F724 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCCB09BC1B66177B0098F724 /* LabelChessTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCCB09BF1B66177B0098F724 /* LabelChessTests.m */,
+				BCCB09BD1B66177B0098F724 /* Supporting Files */,
+			);
+			path = LabelChessTests;
+			sourceTree = "<group>";
+		};
+		BCCB09BD1B66177B0098F724 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCCB09BE1B66177B0098F724 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCCB099F1B66177B0098F724 /* LabelChess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCCB09C31B66177B0098F724 /* Build configuration list for PBXNativeTarget "LabelChess" */;
+			buildPhases = (
+				BCCB099C1B66177B0098F724 /* Sources */,
+				BCCB099D1B66177B0098F724 /* Frameworks */,
+				BCCB099E1B66177B0098F724 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LabelChess;
+			productName = LabelChess;
+			productReference = BCCB09A01B66177B0098F724 /* LabelChess.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCCB09B81B66177B0098F724 /* LabelChessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCCB09C61B66177B0098F724 /* Build configuration list for PBXNativeTarget "LabelChessTests" */;
+			buildPhases = (
+				BCCB09B51B66177B0098F724 /* Sources */,
+				BCCB09B61B66177B0098F724 /* Frameworks */,
+				BCCB09B71B66177B0098F724 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCCB09BB1B66177B0098F724 /* PBXTargetDependency */,
+			);
+			name = LabelChessTests;
+			productName = LabelChessTests;
+			productReference = BCCB09B91B66177B0098F724 /* LabelChessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCCB09981B66177B0098F724 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "汪岩";
+				TargetAttributes = {
+					BCCB099F1B66177B0098F724 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					BCCB09B81B66177B0098F724 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = BCCB099F1B66177B0098F724;
+					};
+				};
+			};
+			buildConfigurationList = BCCB099B1B66177B0098F724 /* Build configuration list for PBXProject "LabelChess" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCCB09971B66177B0098F724;
+			productRefGroup = BCCB09A11B66177B0098F724 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCCB099F1B66177B0098F724 /* LabelChess */,
+				BCCB09B81B66177B0098F724 /* LabelChessTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCCB099E1B66177B0098F724 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCB09B41B66177B0098F724 /* LaunchScreen.xib in Resources */,
+				BCCB09B11B66177B0098F724 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCB09B71B66177B0098F724 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCCB099C1B66177B0098F724 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCB09A91B66177B0098F724 /* AppDelegate.m in Sources */,
+				BCCB09A61B66177B0098F724 /* main.m in Sources */,
+				BCCB09CB1B661C040098F724 /* LabelFactory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCB09B51B66177B0098F724 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCB09C01B66177B0098F724 /* LabelChessTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCCB09BB1B66177B0098F724 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCCB099F1B66177B0098F724 /* LabelChess */;
+			targetProxy = BCCB09BA1B66177B0098F724 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCCB09B21B66177B0098F724 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCCB09B31B66177B0098F724 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCCB09C11B66177B0098F724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCCB09C21B66177B0098F724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCCB09C41B66177B0098F724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = LabelChess/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCCB09C51B66177B0098F724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = LabelChess/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCCB09C71B66177B0098F724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LabelChessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LabelChess.app/LabelChess";
+			};
+			name = Debug;
+		};
+		BCCB09C81B66177B0098F724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LabelChessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LabelChess.app/LabelChess";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCCB099B1B66177B0098F724 /* Build configuration list for PBXProject "LabelChess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCCB09C11B66177B0098F724 /* Debug */,
+				BCCB09C21B66177B0098F724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCCB09C31B66177B0098F724 /* Build configuration list for PBXNativeTarget "LabelChess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCCB09C41B66177B0098F724 /* Debug */,
+				BCCB09C51B66177B0098F724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCCB09C61B66177B0098F724 /* Build configuration list for PBXNativeTarget "LabelChessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCCB09C71B66177B0098F724 /* Debug */,
+				BCCB09C81B66177B0098F724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCCB09981B66177B0098F724 /* Project object */;
+}
