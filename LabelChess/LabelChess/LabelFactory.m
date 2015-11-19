@@ -26,7 +26,7 @@
     else if (upOrDown==downSide){
         label.textColor=[UIColor greenColor];
     }
-    
+    //testgithub
     //返回一个label，由于有alloc init 所以需要调用autorelease
     return [label autorelease];
 }
